@@ -1,0 +1,17 @@
+body {
+    font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+}
+
+nav {
+  background-color: #131313;
+  color: #fff;
+}
+
+nav ul {
+    display: inline-block;    
+} 
+
+nav li {
+    display: inline-block;    
+    line-height: 2em;
+} 
