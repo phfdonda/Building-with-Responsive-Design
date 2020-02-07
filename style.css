@@ -1,25 +1,47 @@
+/* Font variables declarations */
 @font-face {
-  font-family: ars-maquette-bold;
-  src: url('../fonts/ars-maquette-bold-alt.woff');
+  font-family: 'shentox';
+  src: url('fonts/shentox-medium.woff');
+  font-style: normal;
+  font-weight: 500;
 }
 
 @font-face {
-  font-family: ars-maquette-regular;
-  src: url('../fonts/ars-maquette-regular.woff');
+  font-family: 'ars-maquette-regular';
+  src: url('fonts/ars-maquette-regular.woff');
+  font-style: normal;
+  font-weight: 500;
 }
 
 @font-face {
-  font-family: avalon-bold;
-  src: url('../fonts/avalon-bold.woff');
+  font-family: 'ars-maquette-bold';
+  src: url('fonts/ars-maquette-bold-alt.woff');
+  font-style: normal;
+  font-weight: 500;
 }
 
 @font-face {
-  font-family: Shentox;
-  src: url('../fonts/shentox-medium.woff2');
+  font-family: 'avalon-bold';
+  src: url('fonts/avalon-bold.woff');
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* General Variables */
+
+:root {
+  --shentox: 'shentox', sans-serif;
+  --ars-maquette-regular: 'ars-maquette-regular', Helvetica Neue, Arial, sans-serif;
+  --ars-maquette-bold: 'ars-maquette-bold', Helvetica Neue, Arial, sans-serif;
+  --avalon: 'avalon-bold', sans-serif;
+  --color-light-orange: #f42;
+  --color-gray: #aaa;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-black-gray: #555;
 }
 
 body {
-  font-family: 'ars-maquette-regular', Helvetica Neue, Arial, sans-serif;
   font-size: 14px;
 }
 
@@ -38,9 +60,10 @@ nav li {
 }
 
 .firstMenu {
-  
+  font-family: 'ars-maquette-regular', Helvetica Neue, Arial, sans-serif;
 }
 
 .secondMenu {
-
+  font-family: 'shentox';
+  text-transform: uppercase;
 }
