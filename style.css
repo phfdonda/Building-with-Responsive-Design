@@ -92,7 +92,6 @@ main {
   height: 48px;
   color: var(--color-black);
   font-family: var(--shentox);
-  font-size: 1.1rem;
   text-transform: uppercase;
   padding: 9px 0 9px 0;
   position: sticky;
@@ -102,9 +101,8 @@ main {
 
 .nav-white-featured ul {
   display: flex;
-  margin-left: 50px;
+  margin-left: 20px;
   padding: 10px 0;
-
 }
 
 .nav-white-featured li {
