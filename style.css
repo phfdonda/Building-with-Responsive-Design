@@ -1,5 +1,26 @@
+@font-face {
+  font-family: ars-maquette-bold;
+  src: url('../fonts/ars-maquette-bold-alt.woff');
+}
+
+@font-face {
+  font-family: ars-maquette-regular;
+  src: url('../fonts/ars-maquette-regular.woff');
+}
+
+@font-face {
+  font-family: avalon-bold;
+  src: url('../fonts/avalon-bold.woff');
+}
+
+@font-face {
+  font-family: Shentox;
+  src: url('../fonts/shentox-medium.woff2');
+}
+
 body {
-    font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+  font-family: 'ars-maquette-regular', Helvetica Neue, Arial, sans-serif;
+  font-size: 14px;
 }
 
 nav {
@@ -8,10 +29,18 @@ nav {
 }
 
 nav ul {
-    display: inline-block;    
-} 
+  display: inline-block;
+}
 
 nav li {
-    display: inline-block;    
-    line-height: 2em;
-} 
+  display: inline-block;
+  line-height: 2em;
+}
+
+.firstMenu {
+  
+}
+
+.secondMenu {
+
+}
