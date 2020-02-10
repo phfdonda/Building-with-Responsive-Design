@@ -70,7 +70,6 @@ main {
   position: relative;
   height: 3000px;
   width: 100%;
-  background-color: var(--color-light-orange);
 }
 
 .nav-dark-company {
@@ -214,15 +213,53 @@ main {
 
 section {
   display: flex;
-  grid-gap: 10px;
-  margin-top: 50px;
-  padding: 0 50px;
+  margin-top: 200px;
+  padding: 0 90px;
+  flex-wrap: wrap;
+}
+
+.section-name {
+  font-family: avalon-bold;
+  color: var(--color-light-orange);
+  font-size: 2rem;
+  width: 100%;
+  margin-bottom: 25px;
 }
 
 .sml-article {
   max-width: 300px;
-  display: flex;
+  display: inline-flex;
   flex-basis: 25%;
+  flex-direction: column;
+  padding: 12px;
+  justify-content: space-between;
+}
+
+.sml-article img {
+  margin-bottom: 8px;
+}
+
+.author,
+.timeago,
+.dot {
+  color: var(--color-gray);
+  font-family: var(--ars-maquette-regular);
+  font-size: 0.8rem;
+}
+
+.dot {
+  position: relative;
+  top: -4px;
+}
+
+.sml-srt-btm-line {
+  padding-top: 4px;
+}
+
+.article-headline {
+  font-family: var(--ars-maquette-bold);
+  font-size: 1rem;
+  line-height: 1.2rem;
 }
 
 .latest-news-section {
