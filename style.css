@@ -70,7 +70,6 @@ main {
   position: relative;
   height: 3000px;
   width: 100%;
-  background-color: var(--color-light-orange);
 }
 
 .nav-dark-company {
@@ -122,7 +121,7 @@ main {
   color: white;
 }
 
-.fas {
+.arrow-down {
   font-size: 0.6rem;
   transform: scale(1, 2);
   position: relative;
@@ -131,7 +130,7 @@ main {
 
 .advertisements-yellow-bar {
   width: 100%;
-  background-color: var(--color-yellow-top);  
+  background-color: var(--color-yellow-top);
   color: var(--color-black);
   font-size: 13px;
   font-family: var(--ars-maquette-regular);
@@ -210,6 +209,73 @@ main {
   display: flex;
   flex-flow: row;
   align-items: center;
+}
+
+section {
+  display: flex;
+  margin-top: 200px;
+  padding: 0 90px;
+  flex-wrap: wrap;
+}
+
+.top-section {
+  width: 100%;
+  margin-bottom: 19px;
+}
+
+.section-name {
+  font-family: var(--avalon);
+  color: var(--color-light-orange);
+  font-size: 1.8rem;
+  padding-left: 12px;
+}
+
+.section-name:hover {
+  color: black;
+}
+
+.sml-article {
+  max-width: 300px;
+  display: inline-flex;
+  flex-basis: 25%;
+  flex-direction: column;
+  padding: 12px;
+}
+
+.sml-article img {
+  margin-bottom: 8px;
+  width: 100%;
+  height: auto;
+}
+
+.author,
+.timeago,
+.dot {
+  color: var(--color-gray);
+  font-family: var(--ars-maquette-regular);
+  font-size: 0.8rem;
+}
+
+.arrow-right {
+  font-size: 1rem;
+  position: relative;
+  top: -1px;
+}
+
+.dot {
+  position: relative;
+  top: -4px;
+}
+
+.sml-srt-btm-line {
+  padding-top: 4px;
+}
+
+.article-headline {
+  font-family: var(--ars-maquette-bold);
+  font-size: 1rem;
+  line-height: 1.2rem;
+  padding-bottom: 5px;
 }
 
 @media only screen and (max-width: 1024px) {
