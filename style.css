@@ -77,14 +77,18 @@ main {
   flex-flow: row;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
+  background-color: rgb(13, 13, 13);
   color: var(--color-gray);
   font-size: 13px;
   height: 32px;
 }
 
+.news-link {
+  color: white;
+}
+
 .nav-dark-company li {
-  padding: 0 10px 0 0;
+  padding: 0 8px 0 0;
 }
 
 .nav-white-featured {
@@ -106,7 +110,22 @@ main {
 }
 
 .nav-white-featured li {
-  padding: 0 20px 0 0;
+  padding: 0 29px 0 0;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.dark-link:hover {
+  color: white;
+}
+
+.fas {
+  font-size: 0.6rem;
+  transform: scale(1, 2);
+  position: relative;
+  top: -5px;
 }
 
 @media only screen and (max-width: 1024px) {
