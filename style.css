@@ -39,6 +39,7 @@
   --color-white: #fff;
   --color-black: #000;
   --color-black-gray: #555;
+  --color-yellow-top: #fd3;
 }
 
 body {
@@ -93,7 +94,7 @@ main {
 
 .nav-white-featured {
   background-color: white;
-  height: 48px;
+  height: 74px;
   color: var(--color-black);
   font-family: var(--shentox);
   text-transform: uppercase;
@@ -126,6 +127,89 @@ main {
   transform: scale(1, 2);
   position: relative;
   top: -5px;
+}
+
+.advertisements-yellow-bar {
+  width: 100%;
+  background-color: var(--color-yellow-top);  
+  color: var(--color-black);
+  font-size: 13px;
+  font-family: var(--ars-maquette-regular);
+  text-transform: capitalize;
+  line-height: 30px;
+  padding-left: 20px;
+}
+
+.cover-articles {
+  width: 100%;
+  height: 75vh;
+  max-height: 560px;
+  display: grid;
+  grid-template-areas:
+    'cover1 cover1 cover1 cover1 cover1 cover1 cover1 cover1 cover1 cover1 cover2 cover2'
+    'cover1 cover1 cover1 cover1 cover1 cover1 cover1 cover1 cover1 cover1 cover3 cover3';
+  grid-gap: 10px;
+  padding: 0 10px 0 10px;
+  background-color: darkseagreen;
+}
+
+.item1 {
+  grid-area: cover1;
+  background-image: url(./img/LOVE-LETTER-TO-WDPR2100-NAS-drive-796x417.png);
+  background-repeat: no-repeat;
+  background-position-x: 0;
+  background-position-y: 0;
+  background-position: center;
+  background-size: cover;
+}
+
+.item1 h1 {
+  font-size: 56px;
+}
+
+.item2 {
+  grid-area: cover2;
+  background-image: url(./img/1-copy-1-796x417.jpg);
+  background-repeat: no-repeat;
+  background-position-x: 0;
+  background-position-y: 0;
+  background-size: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.item2 h1 {
+  font-size: 28px;
+}
+
+.item3 {
+  grid-area: cover3;
+  background-image: url(./img/1-copy-796x417.jpg);
+  background-repeat: no-repeat;
+  background-position-x: 0;
+  background-position-y: 0;
+  background-size: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.item3 h1 {
+  font-size: 28px;
+}
+
+.align-items-button {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.details-cover-articles {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
 }
 
 @media only screen and (max-width: 1024px) {
