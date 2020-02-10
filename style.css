@@ -224,7 +224,7 @@ section {
 }
 
 .section-name {
-  font-family: avalon-bold;
+  font-family: var(--avalon);
   color: var(--color-light-orange);
   font-size: 1.8rem;
   padding-left: 12px;
@@ -244,6 +244,8 @@ section {
 
 .sml-article img {
   margin-bottom: 8px;
+  width: 100%;
+  height: auto;
 }
 
 .author,
@@ -276,10 +278,7 @@ section {
   padding-bottom: 5px;
 }
 
-.sml-article img {
-  width: 100%;
-  height: auto;
-}
+
 
 @media only screen and (max-width: 1024px) {
   body {
