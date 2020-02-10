@@ -157,7 +157,6 @@ main {
 }
 
 .item1 {
-  grid-area: cover1;
   width: 66.66666%;
   background-image: url(./img/LOVE-LETTER-TO-WDPR2100-NAS-drive-796x417.png);
 }
@@ -167,6 +166,7 @@ main {
   font-family: var(--avalon);
   color: var(--color-white);
   padding: 0 12px 20px 0;
+  z-index: 9;
 }
 
 .item1 img {
@@ -174,8 +174,20 @@ main {
   right: 24px;
 }
 
+.item1 a {
+  height: 450px;
+  width: 830px;
+  position: absolute;
+  background-image: url(./img/image-gradient.png);
+  background-repeat: repeat-x;
+  left: 10px;
+  top: 78px;
+  background-position: center;
+  z-index: 0;
+  object-fit: cover;
+}
+
 .item2 {
-  grid-area: cover2;
   height: 50%;
   background-image: url(./img/1-copy-1-796x417.jpg);
 }
@@ -193,7 +205,6 @@ main {
 }
 
 .item3 {
-  grid-area: cover3;
   height: 50%;
   background-image: url(./img/1-copy-796x417.jpg);
 }
@@ -239,6 +250,8 @@ main {
   align-items: center;
   font-size: 12px;
   font-family: var(--ars-maquette-regular);
+  z-index: 11;
+  color: var(--color-white);
 }
 
 section {
