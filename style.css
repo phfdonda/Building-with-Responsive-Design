@@ -131,7 +131,7 @@ main {
 
 .advertisements-yellow-bar {
   width: 100%;
-  background-color: var(--color-yellow-top);  
+  background-color: var(--color-yellow-top);
   color: var(--color-black);
   font-size: 13px;
   font-family: var(--ars-maquette-regular);
@@ -210,6 +210,29 @@ main {
   display: flex;
   flex-flow: row;
   align-items: center;
+}
+
+section {
+  display: flex;
+  grid-gap: 10px;
+  margin-top: 50px;
+  padding: 0 50px;
+}
+
+.sml-article {
+  max-width: 300px;
+  display: flex;
+  flex-basis: 25%;
+}
+
+.latest-news-section {
+  grid-template-columns: 4;
+  grid-template-columns: 2;
+}
+
+.sml-article img {
+  width: 100%;
+  height: auto;
 }
 
 @media only screen and (max-width: 1024px) {
