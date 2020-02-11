@@ -296,7 +296,6 @@ section {
   padding: 0 80px;
   flex-wrap: wrap;
   max-width: 1400px;
-
 }
 
 .cover-logo {
@@ -679,6 +678,60 @@ section {
 
 .corona {
   background-image: url(/img/coronavirus-china-app-368x276.jpg);
+}
+
+.deal-img {
+  width: 270px;
+  height: 201px;
+  background-repeat: no-repeat;
+  background-size: 270px 201px;
+}
+
+.microsoft-course {
+  background-image: url(./img/10-course-bundle.jpg);
+}
+
+.google-seo {
+  background-image: url(./img/google-seo.jpg);
+}
+
+.aws-certified {
+  background-image: url(./img/aws-certified.jpg)
+}
+
+.how-to-draw {
+  background-image: url(./img/how-to-draw.jpg)
+}
+
+.quickbooks {
+  background-image: url(./img/quickbooks.jpg);
+}
+
+.pixteller {
+  background-image: url(/img/pixteller.jpg);
+}
+
+.video-editing {
+  background-image: url(/img/video-editing.jpg);
+}
+
+.aws-architect {
+  background-image: url(/img/aws-certified2.jpg);
+}
+
+.price {
+  font-family: var(--ars-maquette-regular);
+}
+
+.old {
+  font-size: 0.75rem;
+  color: var(--color-black-gray-rights);
+  text-decoration: line-through;
+}
+
+.new {
+  font-size: 1rem;
+  color: var(--color-black-gray);
 }
 
 @media only screen and (max-width: 1024px) {
