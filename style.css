@@ -368,8 +368,24 @@ section {
   padding-bottom: 5px;
 }
 
+.investment-card {
+  position: relative;
+}
+
+.investment-card img {
+  position: absolute;
+  margin: 10px;
+  width: 60px;
+  height: 60px;
+
+}
+
 .inv-name {
   background-color: var(--color-light-orange);
+  height: 39px;
+  font-family: var(--avalon);
+  font-size: 1.3rem;
+  color: white;
 }
 
 .inv-value {
