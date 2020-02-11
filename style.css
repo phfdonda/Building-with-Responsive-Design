@@ -47,6 +47,7 @@
 body {
   font-size: 14px;
   font-family: var(--ars-maquette-regular);
+  overflow-x: hidden;
 }
 
 nav {
@@ -278,8 +279,10 @@ main {
 section {
   display: flex;
   margin-top: 50px;
-  padding: 0 90px;
+  padding: 0 80px;
   flex-wrap: wrap;
+  max-width: 1400px;
+
 }
 
 .cover-logo {
@@ -310,7 +313,7 @@ section {
 
 .gray-gradient-small {
   position: absolute;
-  background-image: url(./img/image-gradient.png);  
+  background-image: url(./img/image-gradient.png);
   background-position: bottom;
   background-position-y: 310px;
   left: 0;
@@ -349,11 +352,15 @@ section {
   justify-content: space-between;
 }
 
-.section-name {
+.section-name,
+.category-name {
   position: relative;
   font-family: var(--avalon);
   color: var(--color-light-orange);
   font-size: 1.8rem;
+}
+
+.section-name {
   padding-left: 12px;
 }
 
@@ -377,7 +384,9 @@ section {
 }
 
 .see-more-link:hover,
-.section-name:hover {
+.section-name:hover,
+.category-name:hover,
+.inv-type-link span:hover {
   color: black;
 }
 
@@ -391,8 +400,8 @@ section {
 
 .sml-article img {
   margin-bottom: 8px;
-  width: 100%;
-  height: auto;
+  width: 270px;
+  height: 135px;
 }
 
 .author,
@@ -510,10 +519,6 @@ section {
   padding-right: 5px;
 }
 
-.inv-type-link span:hover {
-  color: black;
-}
-
 .inv-story {
   border-top: 1px solid rgba(255, 68, 34, 0.25);
   background-color: #fffaf8;
@@ -533,7 +538,10 @@ section {
 
 .category {
   max-width: 400px;
-  flex-wrap: wrap;
+  display: inline-flex;
+  flex-basis: 33%;
+  flex-direction: column;
+  padding: 12px;
 }
 
 .section-header {
