@@ -291,6 +291,7 @@ footer {
 
 section {
   display: flex;
+  margin: 0 auto;
   margin-top: 50px;
   padding: 0 80px;
   flex-wrap: wrap;
