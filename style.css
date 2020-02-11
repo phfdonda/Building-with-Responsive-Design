@@ -289,6 +289,8 @@ section {
 .top-section {
   width: 100%;
   margin-bottom: 19px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .section-name {
@@ -298,6 +300,26 @@ section {
   padding-left: 12px;
 }
 
+.see-more {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-family: var(--ars-maquette-regular);
+  color: var(--color-light-orange);
+  font-size: 1rem;
+}
+
+.see-more-link {
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+}
+
+.spacer {
+  padding: 0 10px;
+}
+
+.see-more-link:hover,
 .section-name:hover {
   color: black;
 }
@@ -344,6 +366,14 @@ section {
   font-size: 1rem;
   line-height: 1.2rem;
   padding-bottom: 5px;
+}
+
+.inv-name {
+  background-color: var(--color-light-orange);
+}
+
+.inv-value {
+  background-color: rgba(255, 68, 34, 0.08);
 }
 
 @media only screen and (max-width: 1024px) {
