@@ -1,28 +1,28 @@
 /* Font variables declarations */
 @font-face {
-  font-family: 'shentox';
-  src: url('fonts/shentox-medium.woff');
+  font-family: "shentox";
+  src: url("fonts/shentox-medium.woff");
   font-style: normal;
   font-weight: 500;
 }
 
 @font-face {
-  font-family: 'ars-maquette-regular';
-  src: url('fonts/ars-maquette-regular.woff');
+  font-family: "ars-maquette-regular";
+  src: url("fonts/ars-maquette-regular.woff");
   font-style: normal;
   font-weight: 500;
 }
 
 @font-face {
-  font-family: 'ars-maquette-bold';
-  src: url('fonts/ars-maquette-bold-alt.woff');
+  font-family: "ars-maquette-bold";
+  src: url("fonts/ars-maquette-bold-alt.woff");
   font-style: normal;
   font-weight: 500;
 }
 
 @font-face {
-  font-family: 'avalon-bold';
-  src: url('fonts/avalon-bold.woff');
+  font-family: "avalon-bold";
+  src: url("fonts/avalon-bold.woff");
   font-style: normal;
   font-weight: 500;
 }
@@ -30,10 +30,11 @@
 /* General Variables */
 
 :root {
-  --shentox: 'shentox', sans-serif;
-  --ars-maquette-regular: 'ars-maquette-regular', Helvetica Neue, Arial, sans-serif;
-  --ars-maquette-bold: 'ars-maquette-bold', Helvetica Neue, Arial, sans-serif;
-  --avalon: 'avalon-bold', sans-serif;
+  --shentox: "shentox", sans-serif;
+  --ars-maquette-regular: "ars-maquette-regular", Helvetica Neue, Arial,
+    sans-serif;
+  --ars-maquette-bold: "ars-maquette-bold", Helvetica Neue, Arial, sans-serif;
+  --avalon: "avalon-bold", sans-serif;
   --color-light-orange: #f42;
   --color-gray: #aaa;
   --color-white: #fff;
@@ -102,6 +103,7 @@ main {
   position: sticky;
   top: 0;
   left: 0;
+  z-index: 10;
 }
 
 .nav-white-featured ul {
@@ -275,7 +277,7 @@ main {
 
 section {
   display: flex;
-  margin-top: 200px;
+  margin-top: 50px;
   padding: 0 90px;
   flex-wrap: wrap;
 }
@@ -340,17 +342,41 @@ section {
 }
 
 .top-section {
-  width: 100%;
+  width: 100vw;
   margin-bottom: 19px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .section-name {
+  position: relative;
   font-family: var(--avalon);
   color: var(--color-light-orange);
   font-size: 1.8rem;
   padding-left: 12px;
 }
 
+.see-more {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-family: var(--ars-maquette-regular);
+  color: var(--color-light-orange);
+  font-size: 1rem;
+}
+
+.see-more-link {
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+}
+
+.spacer {
+  padding: 0 10px;
+}
+
+.see-more-link:hover,
 .section-name:hover {
   color: black;
 }
@@ -397,6 +423,124 @@ section {
   font-size: 1rem;
   line-height: 1.2rem;
   padding-bottom: 5px;
+}
+
+.investment-card {
+  position: relative;
+  flex: 25%;
+}
+
+.investment-card img {
+  position: absolute;
+  margin: 10px;
+  width: 60px;
+  height: 60px;
+}
+
+.inv-name {
+  position: relative;
+  background-color: var(--color-light-orange);
+  height: 39px;
+  font-family: var(--avalon);
+  font-size: 1.2rem;
+  color: white;
+}
+
+.inv-name h4 {
+  position: relative;
+  left: 80px;
+  top: 10px;
+}
+
+.inv-name h5 {
+  font-family: var(--shentox);
+}
+
+.inv-value {
+  background-color: rgba(255, 68, 34, 0.08);
+  height: 57px;
+}
+
+.inv-value h4 {
+  color: black;
+  position: relative;
+  left: 80px;
+  top: 10px;
+  font-family: var(--avalon);
+  font-size: 1.2rem;
+}
+
+.inv-value h5 {
+  color: grey;
+  font-family: var(--shentox);
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  position: relative;
+  left: 80px;
+  top: 15px;
+}
+
+.inv-type {
+  background-color: #fffaf8;
+  padding: 10px;
+}
+
+.icon-briefcase {
+  display: inline-block;
+  background-image: url(../img/icons-sprite.svg);
+  background-size: 1296px 1296px;
+  background-position: -48px -48px;
+  width: 16px;
+  height: 16px;
+}
+
+.inv-type-link {
+  position: relative;
+  display: block;
+  margin: 10px;
+  height: 20px;
+  color: var(--color-black-gray);
+  font-size: 0.8rem;
+}
+
+.inv-type-link i {
+  color: black;
+  font-size: 0.8rem;
+  transform: scale(1.2, 1);
+  padding-right: 5px;
+}
+
+.inv-type-link span:hover {
+  color: black;
+}
+
+.inv-story {
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
+  background-color: #fffaf8;
+  line-height: 1.2rem;
+  padding: 12px;
+}
+
+.inv-story a {
+  color: var(--color-black-gray);
+  font-family: var(--ars-maquette-regular);
+  font-size: 0.7rem;
+}
+
+.story-source {
+  color: var(--color-gray);
+}
+
+.category {
+  max-width: 400px;
+  flex-wrap: wrap;
+}
+
+.section-header {
+}
+
+.corona {
+  background-image: url(/img/coronavirus-china-app-368x276.jpg);
 }
 
 @media only screen and (max-width: 1024px) {
