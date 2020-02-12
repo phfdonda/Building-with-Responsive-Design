@@ -70,6 +70,8 @@ nav li {
 a {
   text-decoration: none;
   color: var(--color-gray);
+  padding: 0;
+  margin: 0;
 }
 
 main {
@@ -385,10 +387,10 @@ section {
   font-family: var(--ars-maquette-regular);
   color: var(--color-light-orange);
   font-size: 1rem;
+  padding-right: 15px;
 }
 
 .all-deals {
-  padding-right: 15px;
   align-self: center;
 }
 
@@ -420,7 +422,7 @@ section {
 .sml-article img {
   margin-bottom: 8px;
   width: 270px;
-  height: 135px;
+  height: 145px;
 }
 
 .author,
@@ -452,7 +454,6 @@ section {
   line-height: 1.2rem;
   padding-bottom: 5px;
   padding-top: 10px;
-
 }
 
 .headline-link {
@@ -524,11 +525,6 @@ section {
   padding: 10px;
 }
 
-.briefcase {
-  display: inline-block;
-  background-position: -48px -48px;
-}
-
 .inv-type-link {
   position: relative;
   display: block;
@@ -569,10 +565,6 @@ section {
   flex-direction: column;
   padding: 12px;
 }
-
-.section-header {
-}
-
 
 .logo-footer-site {
   display: inline-block;
@@ -646,6 +638,16 @@ section {
   background-position: -576px -576px;
 }
 
+.briefcase-icon {
+  display: inline-block;
+  background-position: -48px -48px;
+}
+
+.price-tag-icon {
+  display: inline-block;
+  background-position: -976px -976px;
+}
+
 .icon {
   background-image: url(./img/icons-sprite.svg);
   background-repeat: no-repeat;
@@ -699,7 +701,7 @@ section {
 }
 
 .corona {
-  background-image: url(/img/coronavirus-china-app-368x276.jpg);
+  background-image: url(./img/coronavirus-china-app-368x276.jpg);
 }
 
 .deal-img {
@@ -749,15 +751,15 @@ section {
 }
 
 .pixteller {
-  background-image: url(/img/pixteller.jpg);
+  background-image: url(./img/pixteller.jpg);
 }
 
 .video-editing {
-  background-image: url(/img/video-editing.jpg);
+  background-image: url(./img/video-editing.jpg);
 }
 
 .aws-architect {
-  background-image: url(/img/aws-certified2.jpg);
+  background-image: url(./img/aws-certified2.jpg);
 }
 
 .price {
