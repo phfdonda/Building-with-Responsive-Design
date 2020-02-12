@@ -452,6 +452,16 @@ section {
   line-height: 1.2rem;
   padding-bottom: 5px;
   padding-top: 10px;
+
+}
+
+.headline-link {
+  color: black;
+}
+
+.headline-link:hover {
+  color: var(--color-light-orange);
+  text-decoration: underline;
 }
 
 .investment-card {
@@ -643,6 +653,15 @@ section {
   display: block;
   width: 16px;
   height: 16px;
+}
+
+.title-link-color {
+  color: black;
+}
+
+.title-link-color:hover {
+  color: var(--color-light-orange);
+  text-decoration: underline;
 }
 
 .horizontal-menu {
