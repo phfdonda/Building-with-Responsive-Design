@@ -477,6 +477,12 @@ section {
   height: 60px;
 }
 
+.investment-card .detail {
+  position: relative;
+  padding-left: 5px;
+  bottom: 3px;
+}
+
 .inv-name {
   position: relative;
   background-color: var(--color-light-orange);
@@ -652,7 +658,7 @@ section {
   background-image: url(./img/icons-sprite.svg);
   background-repeat: no-repeat;
   background-size: 1296px 1296px;
-  display: block;
+  display: inline-block;
   width: 16px;
   height: 16px;
 }
