@@ -45,6 +45,8 @@
   --color-black-gray-rights: #aaa;
   --color-black-gray-icons: #333;
   --color-black-gray-dark: #131313;
+  --color-white-gray: #eee;
+  --color-transparent-orange: rgba(255, 68, 34, 0.06);
 }
 
 body {
@@ -210,32 +212,17 @@ footer {
   position: relative;
 }
 
-.item2 h1 {
-  font-size: 28px;
-  font-family: var(--avalon);
-  color: var(--color-white);
-  padding: 8px 0 8px 0;
-  z-index: 3;
-}
-
-.item2 h2 {
-  font-size: 14px;
-  font-family: var(--shentox);
-  color: var(--color-white);
-  z-index: 4;
-}
-
-.item2 h1 a {
-  color: var(--color-white);
-}
-
 .item3 {
   height: 50%;
   background-image: url(./img/1-copy-796x417.jpg);
   position: relative;
 }
 
-.item3 h1 {
+.color-white {
+  color: var(--color-white);
+}
+
+.post-text-h1 {
   font-size: 28px;
   font-family: var(--avalon);
   color: var(--color-white);
@@ -243,15 +230,31 @@ footer {
   z-index: 3;
 }
 
-.item3 h2 {
+.post-text-h2 {
   font-size: 14px;
   font-family: var(--shentox);
   color: var(--color-white);
   z-index: 4;
+  text-transform: uppercase;
 }
 
-.item3 h1 a {
-  color: var(--color-white);
+.post-text-h2-orange {
+  font-size: 14px;
+  font-family: var(--shentox);
+  color: var(--color-light-orange);
+  z-index: 4;
+  text-transform: uppercase;
+  padding-bottom: 7px;
+  padding-top: 7px;
+}
+
+.post-text-h4-orange {
+  font-size: 14px;
+  font-family: var(--ars-maquette-regular);
+  color: var(--color-light-orange);
+  font-weight: 700;
+  line-height: 1.25;
+  padding-top: 5px;
 }
 
 .align-items-button {
@@ -786,6 +789,138 @@ section {
   font-size: 1rem;
   color: var(--color-black-gray);
   padding-left: 5px;
+}
+
+.catg1 {
+  height: 280px;
+  background-image: url(./img/1-copy-1-796x417.jpg);
+  position: relative;
+}
+
+.catg2 {
+  height: 280px;
+  background-image: url(./img/10-course-bundle.jpg);
+  position: relative;
+}
+
+.catg3 {
+  height: 280px;
+  background-image: url(./img/aws-certified.jpg);
+  position: relative;
+}
+
+.catg4 {
+  height: 280px;
+  background-image: url(./img/aws-certified2.jpg);
+  position: relative;
+}
+
+.catg5 {
+  height: 280px;
+  background-image: url(./img/foldable-samsung.png);
+  position: relative;
+}
+
+.catg6 {
+  height: 280px;
+  background-image: url(./img/bitcoin-today.jpg);
+  position: relative;
+}
+
+.catg7 {
+  height: 280px;
+  background-image: url(./img/Untitled-design-516x270.png);
+  position: relative;
+}
+
+.catg8 {
+  height: 280px;
+  background-image: url(./img/AI-video-restoration-510x270.png);
+  position: relative;
+}
+
+.cat-featured-section {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  height: 100px;
+  margin-top: -6px;
+}
+
+.thumbail1 {
+  background-image: url(./img/coronavirus-china-app.jpg);
+}
+
+.thumbail2 {
+  background-image: url(./img/pixteller.jpg);
+}
+
+.thumbail3 {
+  background-image: url(./img/tricolor.jpeg);
+}
+
+.thumbail4 {
+  background-image: url(./img/speedx.png);
+}
+
+.thumbail5 {
+  background-image: url(./img/soundcloud.jpeg);
+}
+
+.thumbail6 {
+  background-image: url(./img/e.jpeg);
+}
+
+.thumbail7 {
+  background-image: url(./img/Galaxy-unpacked-514x270.jpg);
+}
+
+.thumbail8 {
+  background-image: url(./img/GQ2-516x270.png);
+}
+
+.latest-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 15;
+  display: block;
+}
+
+.cat-text-left {
+  width: 72%;
+  background-color: var(--color-transparent-orange);
+  padding: 10px 15px 0;
+  height: 100%;
+}
+
+.cat-img-right {
+  width: 28%;
+  height: 100px;
+}
+
+.sml-headlines-list {
+  font-size: 13px;
+  font-family: var(--ars-maquette-regular);
+}
+
+.sml-headlines-list li {
+  border-bottom: 1px solid var(--color-white-gray);
+  display: list-item;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.sml-headlines-list li a {
+  display: block;
+  padding: 6px 0 6px 14px;
+}
+
+.sml-headlines-list li a::before {
+  content: '•';
+  margin: 0 0.65em 0 0.25em;
+  color: var(--color-light-orange);
 }
 
 @media only screen and (max-width: 1024px) {
