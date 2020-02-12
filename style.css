@@ -70,12 +70,15 @@ nav li {
 a {
   text-decoration: none;
   color: var(--color-gray);
+  padding: 0;
+  margin: 0;
 }
 
 main {
   position: relative;
-  height: 3000px;
+  height: 100%;
   width: 100%;
+  padding-bottom: 50px;
 }
 
 footer {
@@ -291,11 +294,11 @@ footer {
 
 section {
   display: flex;
+  margin: 0 auto;
   margin-top: 50px;
   padding: 0 80px;
   flex-wrap: wrap;
   max-width: 1400px;
-
 }
 
 .cover-logo {
@@ -384,6 +387,11 @@ section {
   font-family: var(--ars-maquette-regular);
   color: var(--color-light-orange);
   font-size: 1rem;
+  padding-right: 15px;
+}
+
+.all-deals {
+  align-self: center;
 }
 
 .see-more-link {
@@ -414,7 +422,7 @@ section {
 .sml-article img {
   margin-bottom: 8px;
   width: 270px;
-  height: 135px;
+  height: 145px;
 }
 
 .author,
@@ -445,6 +453,16 @@ section {
   font-size: 1rem;
   line-height: 1.2rem;
   padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+.headline-link {
+  color: black;
+}
+
+.headline-link:hover {
+  color: var(--color-light-orange);
+  text-decoration: underline rgba(255, 68, 34, 0.4);
 }
 
 .investment-card {
@@ -507,15 +525,6 @@ section {
   padding: 10px;
 }
 
-.icon-briefcase {
-  display: inline-block;
-  background-image: url(../img/icons-sprite.svg);
-  background-size: 1296px 1296px;
-  background-position: -48px -48px;
-  width: 16px;
-  height: 16px;
-}
-
 .inv-type-link {
   position: relative;
   display: block;
@@ -556,10 +565,6 @@ section {
   flex-direction: column;
   padding: 12px;
 }
-
-.section-header {
-}
-
 
 .logo-footer-site {
   display: inline-block;
@@ -633,6 +638,16 @@ section {
   background-position: -576px -576px;
 }
 
+.briefcase-icon {
+  display: inline-block;
+  background-position: -48px -48px;
+}
+
+.price-tag-icon {
+  display: inline-block;
+  background-position: -976px -976px;
+}
+
 .icon {
   background-image: url(./img/icons-sprite.svg);
   background-repeat: no-repeat;
@@ -640,6 +655,15 @@ section {
   display: block;
   width: 16px;
   height: 16px;
+}
+
+.title-link-color {
+  color: black;
+}
+
+.title-link-color:hover {
+  color: var(--color-light-orange);
+  text-decoration: underline;
 }
 
 .horizontal-menu {
@@ -677,7 +701,81 @@ section {
 }
 
 .corona {
-  background-image: url(/img/coronavirus-china-app-368x276.jpg);
+  background-image: url(./img/coronavirus-china-app-368x276.jpg);
+}
+
+.deal-img {
+  position: relative;
+  width: 270px;
+  height: 201px;
+  background-repeat: no-repeat;
+  background-size: 270px 201px;
+}
+
+.deal-img .ribbon {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.deal-off {
+  position: absolute;
+  font-family: var(--ars-maquette-bold);
+  color: black;
+  transform: rotate(45deg);
+  top: 25px;
+  right: 2px;
+  text-transform: uppercase;
+}
+
+.microsoft-course {
+  background-image: url(./img/10-course-bundle.jpg);
+}
+
+.google-seo {
+  background-image: url(./img/google-seo.jpg);
+}
+
+.aws-certified {
+  background-image: url(./img/aws-certified.jpg)
+}
+
+.how-to-draw {
+  background-image: url(./img/how-to-draw.jpg)
+}
+
+.quickbooks {
+  background-image: url(./img/quickbooks.jpg);
+}
+
+.pixteller {
+  background-image: url(./img/pixteller.jpg);
+}
+
+.video-editing {
+  background-image: url(./img/video-editing.jpg);
+}
+
+.aws-architect {
+  background-image: url(./img/aws-certified2.jpg);
+}
+
+.price {
+  font-family: var(--ars-maquette-regular);
+}
+
+.old {
+  font-size: 0.75rem;
+  color: var(--color-black-gray-rights);
+  text-decoration: line-through;
+}
+
+.new {
+  font-size: 1rem;
+  color: var(--color-black-gray);
+  padding-left: 5px;
 }
 
 @media only screen and (max-width: 1024px) {
