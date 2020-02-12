@@ -74,8 +74,9 @@ a {
 
 main {
   position: relative;
-  height: 3000px;
+  height: 100%;
   width: 100%;
+  padding-bottom: 50px;
 }
 
 footer {
@@ -373,6 +374,8 @@ section {
   font-size: 1.8rem;
 }
 
+
+
 .section-name {
   padding-left: 12px;
 }
@@ -445,6 +448,7 @@ section {
   font-size: 1rem;
   line-height: 1.2rem;
   padding-bottom: 5px;
+  padding-top: 10px;
 }
 
 .investment-card {
@@ -507,13 +511,9 @@ section {
   padding: 10px;
 }
 
-.icon-briefcase {
+.briefcase {
   display: inline-block;
-  background-image: url(../img/icons-sprite.svg);
-  background-size: 1296px 1296px;
   background-position: -48px -48px;
-  width: 16px;
-  height: 16px;
 }
 
 .inv-type-link {
@@ -732,6 +732,7 @@ section {
 .new {
   font-size: 1rem;
   color: var(--color-black-gray);
+  padding-left: 5px;
 }
 
 @media only screen and (max-width: 1024px) {
