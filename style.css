@@ -374,8 +374,6 @@ section {
   font-size: 1.8rem;
 }
 
-
-
 .section-name {
   padding-left: 12px;
 }
@@ -387,6 +385,11 @@ section {
   font-family: var(--ars-maquette-regular);
   color: var(--color-light-orange);
   font-size: 1rem;
+}
+
+.all-deals {
+  padding-right: 15px;
+  align-self: center;
 }
 
 .see-more-link {
@@ -681,10 +684,29 @@ section {
 }
 
 .deal-img {
+  position: relative;
   width: 270px;
   height: 201px;
   background-repeat: no-repeat;
   background-size: 270px 201px;
+}
+
+#ribbon {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.deal-off {
+  position: absolute;
+  font-family: var(--ars-maquette-bold);
+  color: black;
+  transform: rotate(45deg);
+  top: 25px;
+  right: 2px;
+  text-transform: uppercase;
 }
 
 .microsoft-course {
