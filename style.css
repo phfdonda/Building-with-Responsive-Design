@@ -461,7 +461,7 @@ section {
 
 .headline-link:hover {
   color: var(--color-light-orange);
-  text-decoration: underline;
+  text-decoration: underline rgba(255, 68, 34, 0.4);
 }
 
 .investment-card {
