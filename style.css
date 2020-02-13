@@ -103,6 +103,12 @@ footer {
   height: 32px;
 }
 
+.wrapper {
+  padding: 0 20px;
+  max-width: 1192px;
+  margin: 0 auto;
+}
+
 .news-link {
   color: white;
 }
@@ -308,8 +314,9 @@ section {
   display: flex;
   margin: 0 auto;
   margin-top: 50px;
-  padding: 0 80px;
+  padding: 0 10px;
   flex-wrap: wrap;
+  justify-content: left;
   max-width: 1400px;
 }
 
@@ -378,6 +385,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 0 12px;
 }
 
 .section-name,
@@ -389,7 +397,7 @@ section {
 }
 
 .section-name {
-  padding-left: 12px;
+  justify-content: space-between;
 }
 
 .see-more {
@@ -399,7 +407,6 @@ section {
   font-family: var(--ars-maquette-regular);
   color: var(--color-light-orange);
   font-size: 1rem;
-  padding-right: 15px;
 }
 
 .all-deals {
@@ -431,10 +438,11 @@ section {
   padding: 12px;
 }
 
-.sml-article img {
-  margin-bottom: 8px;
-  width: 270px;
-  height: 145px;
+.article-img {
+  display: flex;
+  max-width: 270px;
+  width: 100%;
+  height: auto;
 }
 
 .author,
@@ -705,7 +713,6 @@ section {
   flex-flow: row;
   justify-content: center;
   align-items: center;
-  /* padding-bottom: 50px; */
   width: 100%;
   height: 97px;
   font-family: var(--ars-maquette-regular);
@@ -729,8 +736,9 @@ section {
 
 .deal-img {
   position: relative;
-  width: 270px;
-  height: 201px;
+  flex-basis: 25%;
+  max-width: 270px;
+  height: auto;
   background-repeat: no-repeat;
   background-size: 270px 201px;
 }
