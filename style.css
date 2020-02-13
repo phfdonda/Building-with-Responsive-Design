@@ -145,6 +145,10 @@ footer {
   padding: 0 29px 0 15px;
 }
 
+.headlin-link {
+  word-wrap: break-word;
+}
+
 .nav-link:hover,
 .sml-headline-link:hover {
   color: black;
@@ -442,6 +446,11 @@ section {
   padding: 0 10px;
 }
 
+.inv-type-link span {
+  padding-left: 10px;
+  line-height: 150%;
+}
+
 .see-more-link:hover,
 .section-name:hover,
 .category-name:hover,
@@ -497,6 +506,7 @@ section {
   line-height: 1.2rem;
   padding-bottom: 5px;
   padding-top: 10px;
+  flex-wrap: wrap;
 }
 
 .headline-link {
@@ -1028,32 +1038,26 @@ section {
 }
 
 @media only screen and (max-width: 768px) {
-  #menu-nav-company,
-  #black-navigation-bar {
-    display: none;
-  }
-
   #hamburguer-menu,
-  section {
+  section,
+  .section-name {
     display: block;
   }
 
   .sml-article {
-    display: inline-block;
+    flex-flow: row;
     max-width: 100%;
     padding: 7px;
-    }
+  }
 
   .sml-art-btm-line,
   .article-headline {
-    display: inline-block;
     padding-left: 10px;
     padding-top: 0;
     }
 
   .article-headline {
     font-size: 0.9rem;
-    clear: both;
   }
 
   .article-img {
@@ -1067,10 +1071,6 @@ section {
     width: 100px;
   }
 
-  .section-name {
-    display: block;
-  }
-
   .top-section {
     flex-flow: column;
   }
@@ -1081,14 +1081,16 @@ section {
   }
 
   .see-more-link {
+    width: 100%;
     padding-top: 15px;
     font-size: 0.9rem;
     font-weight: 200;
   }
 
-.spacer {
-  display: none;
-}
+  .investment-card {
+    width: 100%;
+  }
+
   .search-icon {
     padding-left: 0;
   }
@@ -1111,4 +1113,12 @@ section {
     border-left: 1px solid var(--color-white-gray);
     height: 100%;
   }
+
+  #menu-nav-company,
+  #black-navigation-bar,
+  .spacer,
+  .last-card {
+    display: none;
+  }
+
 }
