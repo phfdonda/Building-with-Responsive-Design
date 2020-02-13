@@ -986,10 +986,6 @@ section {
 }
 
 @media only screen and (max-width: 1024px) {
-  body {
-    background-color: lightblue;
-  }
-
   .sml-article {
     flex-basis: 33%;
     max-width: 400px;
@@ -1032,26 +1028,67 @@ section {
 }
 
 @media only screen and (max-width: 768px) {
-  body {
-    background-color: lightblue;
-  }
-
-  #menu-nav-company {
-    display: none;
-  }
-
+  #menu-nav-company,
   #black-navigation-bar {
     display: none;
   }
 
-  #hamburguer-menu {
+  #hamburguer-menu,
+  section {
     display: block;
+  }
+
+  .sml-article {
+    display: inline-block;
+    max-width: 100%;
+    padding: 7px;
+    }
+
+  .sml-art-btm-line,
+  .article-headline {
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 0;
+    }
+
+  .article-headline {
+    font-size: 0.9rem;
+    clear: both;
+  }
+
+  .article-img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    float: left;
   }
 
   .search-container {
     width: 100px;
   }
 
+  .section-name {
+    display: block;
+  }
+
+  .top-section {
+    flex-flow: column;
+  }
+
+  .see-more {
+    flex-flow: column-reverse;
+    align-items: flex-start;
+  }
+
+  .see-more-link {
+    padding-top: 15px;
+    font-size: 0.9rem;
+    font-weight: 200;
+  }
+
+.spacer {
+  display: none;
+}
   .search-icon {
     padding-left: 0;
   }
@@ -1059,6 +1096,10 @@ section {
   .hamb {
     padding-top: 0;
     margin-right: 0;
+  }
+
+  .wrapper {
+    padding: 0 5px;
   }
 
   .center-elemt {
