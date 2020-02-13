@@ -217,7 +217,7 @@ footer {
 
 .item3 {
   height: 50%;
-  background-image: url(./img/1-copy-796x417.jpg);
+  background-image: url(./img/lenovo.jpg);
   position: relative;
 }
 
@@ -950,6 +950,10 @@ section {
 
   .cover-articles .big {
     font-size: 3rem;
+  }
+
+  .post-text-h1 {
+    font-size: 1.3rem;
   }
 
   .last-card,
