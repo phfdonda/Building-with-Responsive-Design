@@ -458,7 +458,8 @@ section {
   color: black;
 }
 
-.sml-article {
+.sml-article,
+.investment-card {
   max-width: 300px;
   display: inline-flex;
   flex-basis: 25%;
