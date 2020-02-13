@@ -734,6 +734,10 @@ section {
   background-image: url(./img/coronavirus-china-app-368x276.jpg);
 }
 
+.deal {
+  position: relative;
+}
+
 .deal-img {
   position: relative;
   flex-basis: 25%;
@@ -743,12 +747,13 @@ section {
   background-size: 270px 201px;
 }
 
-.deal-img .ribbon {
+.sml-article .ribbon {
   width: 80px;
   height: 80px;
   position: absolute;
   top: 0;
   right: 0;
+  z-index: 2;
 }
 
 .deal-off {
@@ -759,6 +764,7 @@ section {
   top: 25px;
   right: 2px;
   text-transform: uppercase;
+  z-index: 3;
 }
 
 .microsoft-course {
