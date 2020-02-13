@@ -145,7 +145,8 @@ footer {
   padding: 0 29px 0 15px;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.sml-headline-link:hover {
   color: black;
 }
 
@@ -934,6 +935,10 @@ section {
   content: '•';
   margin: 0 0.65em 0 0.25em;
   color: var(--color-light-orange);
+}
+
+.sml-headline-link {
+  color: var(--color-black-gray);
 }
 
 .logo-nav-bar {
