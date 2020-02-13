@@ -283,7 +283,7 @@ footer {
   margin-bottom: 8px;
 }
 
-.aling-img-cover {
+.align-img-cover {
   background-repeat: no-repeat;
   background-position-x: 0;
   background-position-y: 0;
@@ -441,6 +441,10 @@ section {
 .article-img {
   display: flex;
   max-width: 270px;
+}
+
+.article-img,
+.resize-img {
   width: 100%;
   height: auto;
 }
@@ -765,38 +769,6 @@ section {
   right: 2px;
   text-transform: uppercase;
   z-index: 3;
-}
-
-.microsoft-course {
-  background-image: url(./img/10-course-bundle.jpg);
-}
-
-.google-seo {
-  background-image: url(./img/google-seo.jpg);
-}
-
-.aws-certified {
-  background-image: url(./img/aws-certified.jpg)
-}
-
-.how-to-draw {
-  background-image: url(./img/how-to-draw.jpg)
-}
-
-.quickbooks {
-  background-image: url(./img/quickbooks.jpg);
-}
-
-.pixteller {
-  background-image: url(./img/pixteller.jpg);
-}
-
-.video-editing {
-  background-image: url(./img/video-editing.jpg);
-}
-
-.aws-architect {
-  background-image: url(./img/aws-certified2.jpg);
 }
 
 .price {
