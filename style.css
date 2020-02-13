@@ -190,11 +190,8 @@ footer {
 }
 
 .item1 h1 {
-  font-size: 56px;
-  font-family: var(--avalon);
-  color: var(--color-white);
   padding: 10px 12px 20px 0;
-  z-index: 5;
+
 }
 
 .item1 h1 a {
@@ -227,6 +224,11 @@ footer {
 .headline {
   font-family: var(--ars-maquette-bold);
   color: var(--color-white);
+  z-index: 5;
+}
+
+.cover-articles .big {
+  font-size: 5em;
 }
 
 .cat-headline {
@@ -676,6 +678,8 @@ section {
   background-position: -976px -976px;
 }
 
+
+
 .icon {
   background-image: url(./img/icons-sprite.svg);
   background-repeat: no-repeat;
@@ -931,7 +935,12 @@ section {
     flex-basis: 50%;
   }
 
-  .last-card {
+  .cover-articles .big {
+    font-size: 3rem;
+  }
+
+  .last-card,
+  .cover-logo {
     display: none;
   }
 }
