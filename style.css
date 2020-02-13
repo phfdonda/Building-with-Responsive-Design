@@ -345,6 +345,8 @@ section {
   z-index: 2;
   width: 100%;
   height: 100%;
+  transition-property: opacity;
+  transition-duration: 0.4s;
 }
 
 .gray-gradient-small {
@@ -357,6 +359,13 @@ section {
   z-index: 1;
   width: 100%;
   height: 100%;
+  transition-property: opacity;
+  transition-duration: 0.4s;
+}
+
+.gray-gradient:hover,
+.gray-gradient-small:hover {
+  opacity: 0.9;
 }
 
 .current-date {
@@ -378,6 +387,10 @@ section {
   height: 100%;
   mix-blend-mode: lighten;
   z-index: 1;
+}
+
+.gradient-cover:hover {
+  opacity: 0.1;
 }
 
 .top-section {
@@ -940,6 +953,8 @@ section {
   }
 
   .last-card,
+  .current-date,
+  .gradient-cover,
   .cover-logo {
     display: none;
   }
