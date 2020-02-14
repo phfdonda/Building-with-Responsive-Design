@@ -1088,6 +1088,7 @@ section {
 
   .top-section {
     flex-flow: column;
+    width: 100%;
   }
 
   .see-more {
