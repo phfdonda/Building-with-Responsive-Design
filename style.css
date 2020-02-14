@@ -996,6 +996,16 @@ section {
   display: none;
 }
 
+.section-container {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 0 10px;
+  flex-wrap: wrap;
+  justify-content: left;
+  max-width: 1400px;
+}
+
 @media only screen and (max-width: 1024px) {
   .sml-article {
     flex-basis: 33%;
@@ -1059,7 +1069,7 @@ section {
   .article-headline {
     padding-left: 10px;
     padding-top: 0;
-    }
+  }
 
   .article-headline {
     font-size: 0.9rem;
@@ -1209,5 +1219,9 @@ section {
 
   .cat-img-right {
     width: 18%;
+  }
+
+  .section-container {
+    display: block;
   }
 }
