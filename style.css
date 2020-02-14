@@ -679,7 +679,7 @@ section {
 }
 
 .instagram-icon {
-  background-position: -416px -416px;;
+  background-position: -416px -416px;
 }
 
 .pinterest-icon {
@@ -916,7 +916,7 @@ section {
   font-family: var(--ars-maquette-regular);
 }
 
-.sml-headlines-list li {
+.sml-headline {
   border-bottom: 1px solid var(--color-white-gray);
   display: list-item;
   line-height: 1.5;
