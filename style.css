@@ -31,7 +31,10 @@
 
 :root {
   --shentox: "shentox", sans-serif;
-  --ars-maquette-regular: "ars-maquette-regular", Helvetica Neue, Arial,
+  --ars-maquette-regular:
+    "ars-maquette-regular",
+    Helvetica Neue,
+    Arial,
     sans-serif;
   --ars-maquette-bold: "ars-maquette-bold", Helvetica Neue, Arial, sans-serif;
   --avalon: "avalon-bold", sans-serif;
