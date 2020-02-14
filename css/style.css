@@ -201,7 +201,7 @@ footer {
 
 .item1 {
   width: 66.66666%;
-  background-image: url(./img/LOVE-LETTER-TO-WDPR2100-NAS-drive-796x417.png);
+  background-image: url(../img/LOVE-LETTER-TO-WDPR2100-NAS-drive-796x417.png);
   position: relative;
 }
 
@@ -226,13 +226,13 @@ footer {
 
 .item2 {
   height: 50%;
-  background-image: url(./img/1-copy-1-796x417.jpg);
+  background-image: url(../img/1-copy-1-796x417.jpg);
   position: relative;
 }
 
 .item3 {
   height: 50%;
-  background-image: url(./img/lenovo.jpg);
+  background-image: url(../img/lenovo.jpg);
   position: relative;
 }
 
@@ -337,7 +337,7 @@ section {
 }
 
 .cover-logo {
-  background-image: url(./img/tnw.svg);
+  background-image: url(../img/tnw.svg);
   background-size: contain;
   background-repeat: no-repeat;
   left: 24px;
@@ -352,7 +352,7 @@ section {
 
 .gray-gradient {
   position: absolute;
-  background-image: url(./img/image-gradient.png);
+  background-image: url(../img/image-gradient.png);
   background-repeat: repeat-x;
   background-position: center;
   left: 0;
@@ -366,7 +366,7 @@ section {
 
 .gray-gradient-small {
   position: absolute;
-  background-image: url(./img/image-gradient.png);
+  background-image: url(../img/image-gradient.png);
   background-position: bottom;
   background-position-y: 310px;
   left: 0;
@@ -392,7 +392,7 @@ section {
 }
 
 .gradient-cover {
-  background-image: url(./img/cover-gradient.png);
+  background-image: url(../img/cover-gradient.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -711,7 +711,7 @@ section {
 }
 
 .icon {
-  background-image: url(./img/icons-sprite.svg);
+  background-image: url(../img/icons-sprite.svg);
   background-repeat: no-repeat;
   background-size: 1296px 1296px;
   display: inline-block;
@@ -767,7 +767,7 @@ section {
 }
 
 .corona {
-  background-image: url(./img/coronavirus-china-app-368x276.jpg);
+  background-image: url(../img/coronavirus-china-app-368x276.jpg);
 }
 
 .deal {
@@ -825,35 +825,35 @@ section {
 }
 
 .catg1 {
-  background-image: url(./img/1-copy-1-796x417.jpg);
+  background-image: url(../img/1-copy-1-796x417.jpg);
 }
 
 .catg2 {
-  background-image: url(./img/essential-phone.jpg);
+  background-image: url(../img/essential-phone.jpg);
 }
 
 .catg3 {
-  background-image: url(./img/aws-certified.jpg);
+  background-image: url(../img/aws-certified.jpg);
 }
 
 .catg4 {
-  background-image: url(./img/aws-certified2.jpg);
+  background-image: url(../img/aws-certified2.jpg);
 }
 
 .catg5 {
-  background-image: url(./img/foldable-samsung.png);
+  background-image: url(../img/foldable-samsung.png);
 }
 
 .catg6 {
-  background-image: url(./img/bitcoin-today.jpg);
+  background-image: url(../img/bitcoin-today.jpg);
 }
 
 .catg7 {
-  background-image: url(./img/Untitled-design-516x270.png);
+  background-image: url(../img/Untitled-design-516x270.png);
 }
 
 .catg8 {
-  background-image: url(./img/AI-video-restoration-510x270.png);
+  background-image: url(../img/AI-video-restoration-510x270.png);
 }
 
 .cat-featured-section {
@@ -865,35 +865,35 @@ section {
 }
 
 .thumbail1 {
-  background-image: url(./img/coronavirus-china-app.jpg);
+  background-image: url(../img/coronavirus-china-app.jpg);
 }
 
 .thumbail2 {
-  background-image: url(./img/pixteller.jpg);
+  background-image: url(../img/pixteller.jpg);
 }
 
 .thumbail3 {
-  background-image: url(./img/tricolor.jpeg);
+  background-image: url(../img/tricolor.jpeg);
 }
 
 .thumbail4 {
-  background-image: url(./img/speedx.png);
+  background-image: url(../img/speedx.png);
 }
 
 .thumbail5 {
-  background-image: url(./img/soundcloud.jpeg);
+  background-image: url(../img/soundcloud.jpeg);
 }
 
 .thumbail6 {
-  background-image: url(./img/e.jpeg);
+  background-image: url(../img/e.jpeg);
 }
 
 .thumbail7 {
-  background-image: url(./img/Galaxy-unpacked-514x270.jpg);
+  background-image: url(../img/Galaxy-unpacked-514x270.jpg);
 }
 
 .thumbail8 {
-  background-image: url(./img/GQ2-516x270.png);
+  background-image: url(../img/GQ2-516x270.png);
 }
 
 .latest-img {
