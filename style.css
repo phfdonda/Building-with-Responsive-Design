@@ -813,52 +813,41 @@ section {
   padding-left: 5px;
 }
 
-.catg1 {
-  height: 280px;
-  background-image: url(./img/1-copy-1-796x417.jpg);
+.catg {
   position: relative;
+  height: 280px;
+}
+
+.catg1 {
+  background-image: url(./img/1-copy-1-796x417.jpg);
 }
 
 .catg2 {
-  height: 280px;
   background-image: url(./img/essential-phone.jpg);
-  position: relative;
 }
 
 .catg3 {
-  height: 280px;
   background-image: url(./img/aws-certified.jpg);
-  position: relative;
 }
 
 .catg4 {
-  height: 280px;
   background-image: url(./img/aws-certified2.jpg);
-  position: relative;
 }
 
 .catg5 {
-  height: 280px;
   background-image: url(./img/foldable-samsung.png);
-  position: relative;
 }
 
 .catg6 {
-  height: 280px;
   background-image: url(./img/bitcoin-today.jpg);
-  position: relative;
 }
 
 .catg7 {
-  height: 280px;
   background-image: url(./img/Untitled-design-516x270.png);
-  position: relative;
 }
 
 .catg8 {
-  height: 280px;
   background-image: url(./img/AI-video-restoration-510x270.png);
-  position: relative;
 }
 
 .cat-featured-section {
@@ -981,6 +970,7 @@ section {
   flex-flow: row;
   justify-content: center;
   align-items: center;
+  border-left: 1px solid #ececec;
 }
 
 .search-icon {
@@ -1019,6 +1009,16 @@ section {
 
   .post-text-h1 {
     font-size: 1.3rem;
+  }
+
+  #top-funding {
+    flex-flow: column;
+    width: 100%;
+  }
+
+  #see-more-menu {
+    justify-content: flex-start;
+    padding-top: 10px;
   }
 
   .last-card,
@@ -1080,11 +1080,6 @@ section {
 
   .search-container {
     width: 100px;
-  }
-
-  #top-funding {
-    flex-flow: column;
-    width: 100%;
   }
 
   #see-more-menu {
@@ -1162,18 +1157,12 @@ section {
     padding: 10px 12px 10px 0;
   }
 
-  .item2 {
-    min-height: 30vh;
-  }
-
+  .item2,
   .item3 {
     min-height: 30vh;
   }
 
-  .cover-articles .big {
-    font-size: 20px;
-  }
-
+  .cover-articles .big,
   .post-text-h1 {
     font-size: 20px;
   }
@@ -1186,35 +1175,7 @@ section {
     background-position-y: 455px;
   }
 
-  .catg1 {
-    height: 454px;
-  }
-
-  .catg2 {
-    height: 454px;
-  }
-
-  .catg3 {
-    height: 454px;
-  }
-
-  .catg4 {
-    height: 454px;
-  }
-
-  .catg5 {
-    height: 454px;
-  }
-
-  .catg6 {
-    height: 454px;
-  }
-
-  .catg7 {
-    height: 454px;
-  }
-
-  .catg8 {
+  .catg {
     height: 454px;
   }
 
