@@ -421,6 +421,7 @@ section {
 
 .section-name {
   justify-content: space-between;
+  display: inline-block;
 }
 
 .see-more {
@@ -430,10 +431,6 @@ section {
   font-family: var(--ars-maquette-regular);
   color: var(--color-light-orange);
   font-size: 1rem;
-}
-
-.all-deals {
-  align-self: center;
 }
 
 .see-more-link {
@@ -1054,8 +1051,7 @@ section {
 
 @media only screen and (max-width: 768px) {
   #hamburguer-menu,
-  section,
-  .section-name {
+  section {
     display: block;
   }
 
@@ -1086,12 +1082,12 @@ section {
     width: 100px;
   }
 
-  .top-section {
+  #top-funding {
     flex-flow: column;
     width: 100%;
   }
 
-  .see-more {
+  #see-more-menu {
     flex-flow: column-reverse;
     align-items: flex-start;
   }
@@ -1104,6 +1100,7 @@ section {
   }
 
   .investment-card {
+    max-width: 100%;
     width: 100%;
   }
 
@@ -1133,7 +1130,10 @@ section {
   #menu-nav-company,
   #black-navigation-bar,
   .spacer,
-  .last-card {
+  .last-card,
+  .ribbon,
+  .deal-off,
+  #team {
     display: none;
   }
 
@@ -1142,6 +1142,10 @@ section {
     flex-flow: column;
     min-height: 30vh;
     height: 100%;
+  }
+
+  .new {
+    font-size: 0.85rem;
   }
 
   .small-cover-articles {
@@ -1224,5 +1228,18 @@ section {
 
   .section-container {
     display: block;
+  }
+
+  .icon-image-list ul li {
+    padding: 0 42px 0 0;
+  }
+
+  .horizontal-menu ul li {
+    padding: 0 3px;
+  }
+
+  .reserved-rights {
+    flex-flow: column;
+    line-height: 1.3rem;
   }
 }
