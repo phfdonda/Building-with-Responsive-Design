@@ -14,7 +14,6 @@
 
 [Preview](https://building-with-responsive-design.000webhostapp.com/)
 
-
 ## Authors
 
 👤 **Pedro Henrique Ferreira Donda**
