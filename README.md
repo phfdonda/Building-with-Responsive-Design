@@ -12,8 +12,7 @@
 
 ## Live Demo
 
-[Preview](https://rawcdn.githack.com/phfdonda/Building-with-Responsive-Design/926e4b81b25069110434c6e84f7840c377529921/index.html)
-
+[Preview](https://building-with-responsive-design.000webhostapp.com/)
 
 ## Authors
 
