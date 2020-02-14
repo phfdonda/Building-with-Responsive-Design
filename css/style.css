@@ -1,28 +1,28 @@
 /* Font variables declarations */
 @font-face {
   font-family: "shentox";
-  src: url("fonts/shentox-medium.woff");
+  src: url("../fonts/shentox-medium.woff");
   font-style: normal;
   font-weight: 500;
 }
 
 @font-face {
   font-family: "ars-maquette-regular";
-  src: url("fonts/ars-maquette-regular.woff");
+  src: url("../fonts/ars-maquette-regular.woff");
   font-style: normal;
   font-weight: 500;
 }
 
 @font-face {
   font-family: "ars-maquette-bold";
-  src: url("fonts/ars-maquette-bold-alt.woff");
+  src: url("../fonts/ars-maquette-bold-alt.woff");
   font-style: normal;
   font-weight: 500;
 }
 
 @font-face {
   font-family: "avalon-bold";
-  src: url("fonts/avalon-bold.woff");
+  src: url("../fonts/avalon-bold.woff");
   font-style: normal;
   font-weight: 500;
 }
@@ -104,6 +104,7 @@ footer {
   color: var(--color-gray);
   font-size: 13px;
   height: 32px;
+  flex-wrap: wrap;
 }
 
 .wrapper {
@@ -180,6 +181,7 @@ footer {
   text-transform: capitalize;
   line-height: 30px;
   padding-left: 20px;
+  min-height: 30px;
 }
 
 .cover-articles {
@@ -990,6 +992,10 @@ section {
   max-width: 1400px;
 }
 
+#top-bar-2 {
+  display: none;
+}
+
 @media only screen and (max-width: 1024px) {
   .sml-article {
     flex-basis: 33%;
@@ -1025,28 +1031,72 @@ section {
     display: none;
   }
 
-  #neural-menu {
+  #neural-menu,
+  #neural-menu2 {
     display: none;
   }
 
-  #growth-menu {
+  #growth-menu,
+  #growth-menu2 {
     display: none;
   }
 
-  #readme-menu {
+  #readme-menu,
+  #readme-menu2 {
     display: none;
   }
 
-  #hamburguer-menu {
+  #hamburguer-menu,
+  #hamburguer-menu2 {
     display: none;
   }
 
   .cover-articles {
     height: 60vh;
   }
+
+  .logo-nav-bar {
+    min-width: 100px;
+    min-height: 40px;
+    display: block;
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .nav-menu-tablet {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .nav-bar-tablet {
+    display: flex;
+    flex-flow: row;
+  }
+
+  .menus-bar-tablet {
+    width: 100%;
+  }
+
+  .nav-white-featured {
+    height: 50px;
+  }
+
+  #top-bar-1 {
+    display: none;
+  }
+
+  #top-bar-2 {
+    display: initial;
+  }
 }
 
 @media only screen and (max-width: 768px) {
+  main {
+    padding-top: 24px;
+  }
+
   #hamburguer-menu,
   section {
     display: block;
@@ -1121,6 +1171,7 @@ section {
 
   #menu-nav-company,
   #black-navigation-bar,
+  #black-navigation-bar2,
   .spacer,
   .last-card,
   .ribbon,
@@ -1199,5 +1250,13 @@ section {
   .reserved-rights {
     flex-flow: column;
     line-height: 1.3rem;
+  }
+
+  #top-bar-1 {
+    display: initial;
+  }
+
+  #top-bar-2 {
+    display: none;
   }
 }
